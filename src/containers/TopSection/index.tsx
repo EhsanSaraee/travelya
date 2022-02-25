@@ -1,10 +1,13 @@
-import tw from "twin.macro"
+import tw from 'twin.macro';
+import Navbar from '../../components/Navbar';
 
 const TopSections = () => {
-  return (
-    <TopSectionContainer>TopSections</TopSectionContainer>
-  )
-}
+   return (
+      <TopSectionContainer>
+         <Navbar />
+      </TopSectionContainer>
+   );
+};
 
 const TopSectionContainer = tw.div`
   w-full
@@ -12,6 +15,6 @@ const TopSectionContainer = tw.div`
   flex
   flex-col
   relative
-`
+`;
 
-export default TopSections
+export default TopSections;
