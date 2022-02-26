@@ -13,6 +13,7 @@ const AppContainer = tw.section`
    flex
    w-full
    h-full
+   overflow-hidden
 `;
 
 export default App;
