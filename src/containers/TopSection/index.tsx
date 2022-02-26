@@ -26,7 +26,7 @@ const TopSections = () => {
                </DescriptionText>
             </InfoSection>
             <ViewMoreButton>
-               <Link to="explore" smooth="easeInOutQuad" duration={1500}>
+               <Link to="explore" smooth="easeInOutQuad" duration={1000}>
                   <BsArrowDownCircle />
                </Link>
             </ViewMoreButton>
