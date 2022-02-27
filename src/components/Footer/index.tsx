@@ -85,7 +85,7 @@ const Footer = () => {
 const FooterContainer = tw.div`
     w-full
     h-96
-    bg-dark-blue-500
+    bg-gray-800
     mt-10
     flex
     pt-6
