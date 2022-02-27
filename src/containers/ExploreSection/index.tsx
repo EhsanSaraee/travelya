@@ -63,9 +63,11 @@ const ExploreSectionContainer = tw(Element)`
 `;
 
 const Title = tw.h1`
-  text-2xl
+  text-3xl
   xl:text-3xl
   2xl:text-5xl
+  mt-6
+  lg:mt-0
   2xl:mt-6
   2xl:mb-6
   text-gray-800
@@ -78,7 +80,11 @@ const SectionInfo = tw.p`
   2xl:text-lg
   text-gray-700
   text-center
-  mt-4
+  mt-8
+  pl-4
+  pr-4
+  lg:pl-2
+  lg:pr-2
   2xl:mt-2
   max-w-lg
   xl:max-w-3xl

@@ -123,7 +123,7 @@ const DescriptionText = tw.p`
    text-white
    text-opacity-80
    mt-10
-   max-w-sm
+   max-w-xs
    lg:max-w-lg
    2xl:max-w-xl
 `;
